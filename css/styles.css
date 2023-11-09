@@ -40,6 +40,29 @@
         /* 150% */
         letter-spacing: 0.32px;
 }
+.link-text:hover,
+.link-text:focus{
+    color: var(--OCEAN, #404BBF);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+.link-text:active{
+    display: flex;
+        width: 48px;
+        height: 52px;
+        padding-bottom: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex-shrink: 0;
+}
 
 .email{
     color: var(--SLATE, #434455);
@@ -51,6 +74,28 @@
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
+}
+.email:hover,
+.email:focus{
+    display: flex;
+        width: 153px;
+        height: 24px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #404BBF;
+}
+
+.number:hover,
+.number:focus{
+    display: flex;
+        width: 153px;
+        height: 24px;
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #404BBF;
 }
 
 .number{
@@ -84,6 +129,12 @@
 .button{
     border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button:hover,
+.button:focus{
+    border-radius: 4px;
+        background: var(--OCEAN, #404BBF);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
