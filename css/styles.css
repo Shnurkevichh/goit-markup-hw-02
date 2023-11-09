@@ -8,10 +8,7 @@
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
+        line-height: 1.4;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -22,57 +19,34 @@
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
+        line-height: 1.4;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 .link-text{
     color: var(--NAVY-BLUE, #2E2F42);
-    
-        /* Body Medium */
         font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .link-text:hover,
 .link-text:focus{
     color: var(--OCEAN, #404BBF);
-    
-        /* Body Medium */
-        font-family: Roboto;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .link-text:active{
-    display: flex;
-        width: 48px;
-        height: 52px;
-        padding-bottom: 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        flex-shrink: 0;
+color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 .email{
-    color: var(--SLATE, #434455);
-    
-        /* Body */
+    color: var(--SLATE);
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .email:hover,
@@ -99,14 +73,9 @@
 }
 
 .number{
-    color: var(--SLATE, #434455);
-    
-        /* Body */
+    color: var(--SLATE);
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .first-section{
@@ -116,13 +85,8 @@
 .main-title{
     color: var(--WHITE, #FFF);
         text-align: center;
-    
-        /* Header 1 */
         font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 60px;
-        /* 107.143% */
+        line-height: 3.35;
         letter-spacing: 1.12px;
 }
 
@@ -140,37 +104,22 @@
 
 .section-title{
     color: var(--NAVY-BLUE, #2E2F42);
-    
-        /* Header 3 */
         font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 120% */
+        line-height: 1.6;
         letter-spacing: 0.4px;
 }
 
 .section-text{
-    color: var(--SLATE, #434455);
-    
-        /* Body */
+    color: var(--SLATE);
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
+        line-height: 0.5;
         letter-spacing: 0.32px;
 }
 .title{
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
-    
-        /* Header 2 */
         font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
+        line-height: 3.3;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
@@ -184,22 +133,14 @@
     color: var(--CLOUD, #F4F4FD);
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
+        line-height: 5.6;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 
 .text-footer{
     color: var(--CLOUD, #F4F4FD);
-    
-        /* Body */
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
+        line-height: 8.75;
         letter-spacing: 0.32px;
 }
