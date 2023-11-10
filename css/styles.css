@@ -1,5 +1,5 @@
 .body{
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Raleway, sans-serif;
     color: #434455;
     background-color: #FFF;
 }
@@ -7,55 +7,65 @@
 .list{
     list-style-type: none;
 }
+
+.link{
+text-decoration: none;
+}
 .logo {
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
+        font-weight: 700;
         font-size: 18px;
         line-height: 1.16;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;        
 }
 
 .text-logo {
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Raleway;
+        font-weight: 700;
         font-size: 18px;
         line-height: 1.16;
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .link-text{
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 16px;
+        font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .link-text:hover,
 .link-text:focus{
     color: var(--OCEAN, #404BBF);
         font-size: 16px;
+        font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .link-text:active{
 color: var(--OCEAN, #404BBF);
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .email{
     color: var(--SLATE);
         font-size: 16px;
+        font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .email:hover,
 .email:focus{
     display: flex;
         width: 153px;
         height: 24px;
+        font-weight: 400;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
@@ -67,6 +77,7 @@ color: var(--OCEAN, #404BBF);
     display: flex;
         width: 153px;
         height: 24px;
+        font-weight: 400;
         padding-right: 0px;
         justify-content: center;
         align-items: center;
@@ -77,8 +88,9 @@ color: var(--OCEAN, #404BBF);
 .number{
     color: var(--SLATE);
         font-size: 16px;
+        font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .first-section{
     background-color: #2E2F42;
@@ -87,14 +99,16 @@ color: var(--OCEAN, #404BBF);
 .main-title{
     color: var(--WHITE, #FFF);
         text-align: center;
+        font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
-        letter-spacing: 1.12px;
+        letter-spacing: 0.02em;
 }
 
 .button{
     border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
+        font-weight: 500;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         cursor: pointer;
 }
@@ -102,28 +116,32 @@ color: var(--OCEAN, #404BBF);
 .button:focus{
     border-radius: 4px;
         background: var(--OCEAN, #404BBF);
+        font-weight: 500;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .section-title{
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
+        font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.4px;
+        letter-spacing: 0.02em;
 }
 
 .section-text{
     color: var(--SLATE);
         font-size: 16px;
+        font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .title{
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 .third-section{
@@ -136,14 +154,16 @@ color: var(--OCEAN, #404BBF);
     color: var(--CLOUD, #F4F4FD);
         font-family: Raleway;
         font-size: 18px;
+        font-weight: 700;
         line-height: 1.16;
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .text-footer{
     color: var(--CLOUD, #F4F4FD);
         font-size: 16px;
+        font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
