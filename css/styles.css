@@ -1,7 +1,10 @@
 .body{
-    font-family: Roboto, Raleway, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFF;
+}
+.top-address{
+    font-style: normal
 }
 
 .list{
@@ -13,17 +16,17 @@ text-decoration: none;
 }
 .logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;        
 }
 
 .text-logo {
     color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.16;
@@ -62,25 +65,17 @@ color: var(--OCEAN, #404BBF);
 }
 .email:hover,
 .email:focus{
-    display: flex;
-        width: 153px;
-        height: 24px;
         font-weight: 400;
         justify-content: center;
-        align-items: center;
         flex-shrink: 0;
         color: #404BBF;
 }
 
 .number:hover,
 .number:focus{
-    display: flex;
-        width: 153px;
-        height: 24px;
         font-weight: 400;
         padding-right: 0px;
         justify-content: center;
-        align-items: center;
         flex-shrink: 0;
         color: #404BBF;
 }
@@ -98,7 +93,6 @@ color: var(--OCEAN, #404BBF);
 
 .main-title{
     color: var(--WHITE, #FFF);
-        text-align: center;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -107,6 +101,11 @@ color: var(--OCEAN, #404BBF);
 
 .button{
     border-radius: 4px;
+    color: var(--WHITE, #FFF);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        font-family: "Roboto", sans-serif;
         background: var(--IRIS, #4D5AE5);
         font-weight: 500;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -137,25 +136,28 @@ color: var(--OCEAN, #404BBF);
 }
 .title{
     color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 .third-section{
     background: var(--CLOUD, #F4F4FD);
 }
+
+.list-item{
+    background-color: #FFFFFF
+}
 .footer{
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .logo-footer{
     color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
